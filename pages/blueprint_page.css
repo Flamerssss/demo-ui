@@ -1,0 +1,15 @@
+/* Создайте класс CSS для фона с точками */
+.dot-grid-background {
+    background-image: radial-gradient(black 1px, transparent 1px);
+    background-size: 1cm 1cm;
+}
+
+.parent {
+    width: 100%; /* Ширина родительского элемента */
+    height: 100vh; /* Высота родительского элемента */
+    display: flex; /* Для корректного распределения пространства */
+}
+
+iframe {
+    flex-grow: 1; /* Позволяет iframe растягиваться, занимая всё доступное пространство */
+}
